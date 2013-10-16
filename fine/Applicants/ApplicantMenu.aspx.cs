@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace blazingdb.Applicants
+namespace fine.Applicants
 {
     public partial class ApplicantMenu : System.Web.UI.Page
     {
