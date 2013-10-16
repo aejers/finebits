@@ -66,6 +66,7 @@
     <Content Include="Applicants\PreviewResume.aspx" />
     <Content Include="Applicants\PrintLetterForm.aspx" />
     <Content Include="Applicants\RecruitmentReport.aspx" />
+    <Content Include="Default.aspx" />
     <Content Include="deployed.aspx" />
     <Content Include="pics\addrecordjoboffer.jpg" />
     <Content Include="pics\administratormenu.jpg" />
@@ -100,7 +101,6 @@
     <Content Include="pics\visaapplicationkuwait.jpg" />
     <Content Include="pics\visaapplicationsaudi.jpg" />
     <Content Include="Styles\Site.css" />
-    <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.4.1.js" />

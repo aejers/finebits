@@ -1,9 +1,7 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
-    CodeFile="Default.aspx.cs" Inherits="blazingdb.Default" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="blazingdb.Default" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
-<asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <h2>
         Welcome to Blazingstar Recruitement Database
     </h2>
@@ -17,5 +15,4 @@
         <asp:HyperLink ID="HyperLink4" NavigateUrl="~/Administrator/AdministratorMenu.aspx" runat="server"><h2>4. Administrator</h2></asp:HyperLink>
     </td></tr>
     </table>
-    
 </asp:Content>
