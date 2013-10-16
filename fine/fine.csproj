@@ -55,8 +55,18 @@
     <Content Include="Account\ChangePasswordSuccess.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
+    <Content Include="Administrator\AdministratorMenu.aspx" />
+    <Content Include="Administrator\ClientTable.aspx" />
+    <Content Include="Administrator\JobSiteTable.aspx" />
+    <Content Include="Administrator\PositionTable.aspx" />
+    <Content Include="Administrator\ProcessorTable.aspx" />
     <Content Include="Applicants\ApplicantInformation.aspx" />
     <Content Include="Applicants\ApplicantMenu.aspx" />
+    <Content Include="Applicants\ListOfApplicants.aspx" />
+    <Content Include="Applicants\PreviewResume.aspx" />
+    <Content Include="Applicants\PrintLetterForm.aspx" />
+    <Content Include="Applicants\RecruitmentReport.aspx" />
+    <Content Include="deployed.aspx" />
     <Content Include="pics\addrecordjoboffer.jpg" />
     <Content Include="pics\administratormenu.jpg" />
     <Content Include="pics\applicantinformation.jpg" />
@@ -95,6 +105,17 @@
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.4.1.js" />
     <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="UnderProcess\AddRecordJobOffer.aspx" />
+    <Content Include="UnderProcess\DeploymentReport.aspx" />
+    <Content Include="UnderProcess\LetterForm.aspx" />
+    <Content Include="UnderProcess\PDOSCertificate.aspx" />
+    <Content Include="UnderProcess\POEAInfosheet.aspx" />
+    <Content Include="UnderProcess\ProcessingFormsMenu.aspx" />
+    <Content Include="UnderProcess\SearchUpdateRecord.aspx" />
+    <Content Include="UnderProcess\StatusReport.aspx" />
+    <Content Include="UnderProcess\UnderProcessMenu.aspx" />
+    <Content Include="UnderProcess\VisaApplicationKuwait.aspx" />
+    <Content Include="UnderProcess\VisaApplicationSaudi.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -139,6 +160,41 @@
     <Compile Include="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Administrator\AdministratorMenu.aspx.cs">
+      <DependentUpon>AdministratorMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrator\AdministratorMenu.aspx.designer.cs">
+      <DependentUpon>AdministratorMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrator\ClientTable.aspx.cs">
+      <DependentUpon>ClientTable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrator\ClientTable.aspx.designer.cs">
+      <DependentUpon>ClientTable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrator\JobSiteTable.aspx.cs">
+      <DependentUpon>JobSiteTable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrator\JobSiteTable.aspx.designer.cs">
+      <DependentUpon>JobSiteTable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrator\PositionTable.aspx.cs">
+      <DependentUpon>PositionTable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrator\PositionTable.aspx.designer.cs">
+      <DependentUpon>PositionTable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrator\ProcessorTable.aspx.cs">
+      <DependentUpon>ProcessorTable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrator\ProcessorTable.aspx.designer.cs">
+      <DependentUpon>ProcessorTable.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Applicants\ApplicantInformation.aspx.cs">
       <DependentUpon>ApplicantInformation.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -153,12 +209,47 @@
     <Compile Include="Applicants\ApplicantMenu.aspx.designer.cs">
       <DependentUpon>ApplicantMenu.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Applicants\ListOfApplicants.aspx.cs">
+      <DependentUpon>ListOfApplicants.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Applicants\ListOfApplicants.aspx.designer.cs">
+      <DependentUpon>ListOfApplicants.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Applicants\PreviewResume.aspx.cs">
+      <DependentUpon>PreviewResume.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Applicants\PreviewResume.aspx.designer.cs">
+      <DependentUpon>PreviewResume.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Applicants\PrintLetterForm.aspx.cs">
+      <DependentUpon>PrintLetterForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Applicants\PrintLetterForm.aspx.designer.cs">
+      <DependentUpon>PrintLetterForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Applicants\RecruitmentReport.aspx.cs">
+      <DependentUpon>RecruitmentReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Applicants\RecruitmentReport.aspx.designer.cs">
+      <DependentUpon>RecruitmentReport.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="deployed.aspx.cs">
+      <DependentUpon>deployed.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="deployed.aspx.designer.cs">
+      <DependentUpon>deployed.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -171,11 +262,86 @@
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
+    <Compile Include="UnderProcess\AddRecordJobOffer.aspx.cs">
+      <DependentUpon>AddRecordJobOffer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UnderProcess\AddRecordJobOffer.aspx.designer.cs">
+      <DependentUpon>AddRecordJobOffer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UnderProcess\DeploymentReport.aspx.cs">
+      <DependentUpon>DeploymentReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UnderProcess\DeploymentReport.aspx.designer.cs">
+      <DependentUpon>DeploymentReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UnderProcess\LetterForm.aspx.cs">
+      <DependentUpon>LetterForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UnderProcess\LetterForm.aspx.designer.cs">
+      <DependentUpon>LetterForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UnderProcess\PDOSCertificate.aspx.cs">
+      <DependentUpon>PDOSCertificate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UnderProcess\PDOSCertificate.aspx.designer.cs">
+      <DependentUpon>PDOSCertificate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UnderProcess\POEAInfosheet.aspx.cs">
+      <DependentUpon>POEAInfosheet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UnderProcess\POEAInfosheet.aspx.designer.cs">
+      <DependentUpon>POEAInfosheet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UnderProcess\ProcessingFormsMenu.aspx.cs">
+      <DependentUpon>ProcessingFormsMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UnderProcess\ProcessingFormsMenu.aspx.designer.cs">
+      <DependentUpon>ProcessingFormsMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UnderProcess\SearchUpdateRecord.aspx.cs">
+      <DependentUpon>SearchUpdateRecord.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UnderProcess\SearchUpdateRecord.aspx.designer.cs">
+      <DependentUpon>SearchUpdateRecord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UnderProcess\StatusReport.aspx.cs">
+      <DependentUpon>StatusReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UnderProcess\StatusReport.aspx.designer.cs">
+      <DependentUpon>StatusReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UnderProcess\UnderProcessMenu.aspx.cs">
+      <DependentUpon>UnderProcessMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UnderProcess\UnderProcessMenu.aspx.designer.cs">
+      <DependentUpon>UnderProcessMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UnderProcess\VisaApplicationKuwait.aspx.cs">
+      <DependentUpon>VisaApplicationKuwait.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UnderProcess\VisaApplicationKuwait.aspx.designer.cs">
+      <DependentUpon>VisaApplicationKuwait.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UnderProcess\VisaApplicationSaudi.aspx.cs">
+      <DependentUpon>VisaApplicationSaudi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UnderProcess\VisaApplicationSaudi.aspx.designer.cs">
+      <DependentUpon>VisaApplicationSaudi.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Administrator\" />
     <Folder Include="App_Data\" />
-    <Folder Include="UnderProcess\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Account\Web.config" />
