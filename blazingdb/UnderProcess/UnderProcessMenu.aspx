@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Under Process" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="UnderProcessMenu.aspx.cs" Inherits="UnderProcess_UnderProcessMenu" %>
+﻿<%@ Page Title="Under Process" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="UnderProcessMenu.aspx.cs" Inherits="blazingdb.UnderProcess.UnderProcessMenu" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
 </asp:Content>

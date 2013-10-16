@@ -1,4 +1,4 @@
-﻿<%@ Page Title="POEA Infosheet" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="POEAInfosheet.aspx.cs" Inherits="UnderProcess_POEAInfosheet" %>
+﻿<%@ Page Title="POEA Infosheet" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="POEAInfosheet.aspx.cs" Inherits="blazingdb.UnderProcess.POEAInfosheet" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
 </asp:Content>

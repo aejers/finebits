@@ -56,6 +56,7 @@
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Administrator\AdministratorMenu.aspx" />
+    <Content Include="Administrator\AdminTest.aspx" />
     <Content Include="Administrator\ClientTable.aspx" />
     <Content Include="Administrator\JobSiteTable.aspx" />
     <Content Include="Administrator\PositionTable.aspx" />
@@ -163,6 +164,13 @@
     <Compile Include="Administrator\AdministratorMenu.aspx.cs">
       <DependentUpon>AdministratorMenu.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrator\AdminTest.aspx.cs">
+      <DependentUpon>AdminTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrator\AdminTest.aspx.designer.cs">
+      <DependentUpon>AdminTest.aspx</DependentUpon>
     </Compile>
     <Compile Include="Administrator\ClientTable.aspx.cs">
       <DependentUpon>ClientTable.aspx</DependentUpon>

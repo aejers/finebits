@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Add Record - Job Offer" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="AddRecordJobOffer.aspx.cs" Inherits="UnderProcess_AddRecordJobOffer" %>
+﻿<%@ Page Title="Add Record - Job Offer" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="AddRecordJobOffer.aspx.cs" Inherits="blazingdb.UnderProcess.AddRecordJobOffer" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
 </asp:Content>

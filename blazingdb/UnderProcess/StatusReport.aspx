@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Status Report" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="StatusReport.aspx.cs" Inherits="UnderProcess_StatusReport" %>
+﻿<%@ Page Title="Status Report" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="StatusReport.aspx.cs" Inherits="blazingdb.UnderProcess.StatusReport" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
 </asp:Content>

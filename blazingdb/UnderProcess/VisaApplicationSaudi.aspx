@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Visa Application - Saudi" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="VisaApplicationSaudi.aspx.cs" Inherits="UnderProcess_VisaApplicationSaudi" %>
+﻿<%@ Page Title="Visa Application - Saudi" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="VisaApplicationSaudi.aspx.cs" Inherits="blazingdb.UnderProcess.VisaApplicationSaudi" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
 </asp:Content>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Position Table" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="PositionTable.aspx.cs" Inherits="Administrator_PositionTable" %>
+﻿<%@ Page Title="Position Table" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="PositionTable.aspx.cs" Inherits="blazingdb.Administrator.PositionTable" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
 </asp:Content>

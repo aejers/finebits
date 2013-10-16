@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Recruitment Report" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="RecruitmentReport.aspx.cs" Inherits="Applicants_RecruitmentReport" %>
+﻿<%@ Page Title="Recruitment Report" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="RecruitmentReport.aspx.cs" Inherits="blazingdb.Applicants.RecruitmentReport" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
 </asp:Content>

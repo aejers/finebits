@@ -1,4 +1,4 @@
-﻿<%@ Page Title="PDOS Certificate" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="PDOSCertificate.aspx.cs" Inherits="UnderProcess_PDOSCertificate" %>
+﻿<%@ Page Title="PDOS Certificate" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="PDOSCertificate.aspx.cs" Inherits="blazingdb.UnderProcess.PDOSCertificate" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
 </asp:Content>

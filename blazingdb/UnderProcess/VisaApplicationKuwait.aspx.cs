@@ -5,10 +5,13 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class UnderProcess_VisaApplicationKuwait : System.Web.UI.Page
+namespace blazingdb.UnderProcess
 {
-    protected void Page_Load(object sender, EventArgs e)
+    public partial class VisaApplicationKuwait : System.Web.UI.Page
     {
+        protected void Page_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }

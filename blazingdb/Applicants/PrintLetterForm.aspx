@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Print Letter Form" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="PrintLetterForm.aspx.cs" Inherits="Applicants_PrintLetterForm" %>
+﻿<%@ Page Title="Print Letter Form" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="PrintLetterForm.aspx.cs" Inherits="blazingdb.Applicants.PrintLetterForm" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
 </asp:Content>

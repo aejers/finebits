@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Client Table" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="ClientTable.aspx.cs" Inherits="Administrator_ClientTable" %>
+﻿<%@ Page Title="Client Table" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="ClientTable.aspx.cs" Inherits="blazingdb.Administrator.ClientTable" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
 </asp:Content>

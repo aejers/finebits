@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Deployed" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="deployed.aspx.cs" Inherits="deployed" %>
+﻿<%@ Page Title="Deployed" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="deployed.aspx.cs" Inherits="blazingdb.deployed" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
 </asp:Content>

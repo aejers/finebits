@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Processing Forms Menu" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="ProcessingFormsMenu.aspx.cs" Inherits="UnderProcess_ProcessingFormsMenu" %>
+﻿<%@ Page Title="Processing Forms Menu" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="ProcessingFormsMenu.aspx.cs" Inherits="blazingdb.UnderProcess.ProcessingFormsMenu" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
 </asp:Content>

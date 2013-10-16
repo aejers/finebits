@@ -5,10 +5,13 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class Administrator_PositionTable : System.Web.UI.Page
+namespace blazingdb.Administrator
 {
-    protected void Page_Load(object sender, EventArgs e)
+    public partial class PositionTable : System.Web.UI.Page
     {
+        protected void Page_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }

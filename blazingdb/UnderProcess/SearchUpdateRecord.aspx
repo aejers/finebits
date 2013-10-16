@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Search Update Record" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="SearchUpdateRecord.aspx.cs" Inherits="UnderProcess_SearchUpdateRecord" %>
+﻿<%@ Page Title="Search Update Record" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="SearchUpdateRecord.aspx.cs" Inherits="blazingdb.UnderProcess.SearchUpdateRecord" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
 </asp:Content>

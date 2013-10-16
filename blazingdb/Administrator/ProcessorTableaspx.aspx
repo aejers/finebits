@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Processor Table" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="ProcessorTableaspx.aspx.cs" Inherits="Administrator_ProcessorTableaspx" %>
+﻿<%@ Page Title="Processor Table" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="ProcessorTableaspx.aspx.cs" Inherits="blazingdb.Administrator.ProcessorTableaspx" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
 </asp:Content>

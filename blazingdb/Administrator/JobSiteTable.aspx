@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Job Site Table" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="JobSiteTable.aspx.cs" Inherits="Administrator_JobSiteTable" %>
+﻿<%@ Page Title="Job Site Table" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="JobSiteTable.aspx.cs" Inherits="blazingdb.Administrator.JobSiteTable" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
 </asp:Content>

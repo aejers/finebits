@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Print/Preview Resume" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="PreviewResume.aspx.cs" Inherits="Applicants_PreviewResume" %>
+﻿<%@ Page Title="Print/Preview Resume" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="PreviewResume.aspx.cs" Inherits="blazingdb.Applicants.PreviewResume" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
 </asp:Content>

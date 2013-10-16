@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Letter Form" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="LetterForm.aspx.cs" Inherits="UnderProcess_LetterForm" %>
+﻿<%@ Page Title="Letter Form" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="LetterForm.aspx.cs" Inherits="blazingdb.UnderProcess.LetterForm" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
 </asp:Content>
