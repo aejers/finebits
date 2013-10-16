@@ -55,6 +55,7 @@
     <Content Include="Account\ChangePasswordSuccess.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
+    <Content Include="Applicants\ApplicantInformation.aspx" />
     <Content Include="Applicants\ApplicantMenu.aspx" />
     <Content Include="pics\addrecordjoboffer.jpg" />
     <Content Include="pics\administratormenu.jpg" />
@@ -137,6 +138,13 @@
     </Compile>
     <Compile Include="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Applicants\ApplicantInformation.aspx.cs">
+      <DependentUpon>ApplicantInformation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Applicants\ApplicantInformation.aspx.designer.cs">
+      <DependentUpon>ApplicantInformation.aspx</DependentUpon>
     </Compile>
     <Compile Include="Applicants\ApplicantMenu.aspx.cs">
       <DependentUpon>ApplicantMenu.aspx</DependentUpon>
