@@ -5,7 +5,7 @@
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <h2>
-        Welcome to Blazingstar Recruitement Database
+        Welcome to Blazingstar Recruitement Database - Test Only
     </h2>
     
     <table >
